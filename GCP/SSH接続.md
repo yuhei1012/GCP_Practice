@@ -27,6 +27,9 @@ AWSと似ているが少々違っていた
 8. ダウンロードしたid_rsa.pub(認証鍵)を cat ~/.ssh/id_rsa.pubで確認し、全てコピーする
 9. コピーしたらブラウザからssh接続しauthorized_keynsに貼り付ける
 - #Added by Googleという行が2つあるが全て消すこと。デフォルトで記述されている認証鍵は時限付きですぐに切れる仕様となっている
+
+googleのkey
+![img](https://github.com/yuhei1012/GCP_Practice/blob/e6ecac830641fd6a062535c20732e23f4717be59/GCP/SSH%E7%94%BB%E5%83%8F/googlekey%E8%A8%98%E8%BF%B0%E7%94%BB%E9%9D%A2.png)
 - 恐らくブラウザからsshすることを設計されているのでブラウザからssh接続するたびに毎回変わる登録されてしまうと思われる。
 - Google Cloudが自動的に鍵を追加しているため、手動で削除しても再び登録されてしまう
 
