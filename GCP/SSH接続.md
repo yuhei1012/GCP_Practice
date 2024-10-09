@@ -26,7 +26,7 @@ AWSと似ているが少々違っていた
     IdentitiesOnly yes
 ````
  VMインスタンスのファイアウォール設定を確認
-
+![img](https://github.com/yuhei1012/GCP_Practice/blob/37d0dc7a0e5ba13427d7f07b29c7dd5d6fa42763/GCP/SSH%E7%94%BB%E5%83%8F/%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AB%E8%A8%AD%E5%AE%9A%E7%94%BB%E9%9D%A2.png)
 8. ダウンロードしたid_rsa.pub(認証鍵)を cat ~/.ssh/id_rsa.pubで確認し、全てコピーする
 9. コピーしたらブラウザからssh接続しauthorized_keynsに貼り付ける
 - #Added by Googleという行が2つあるが全て消すこと。デフォルトで記述されている認証鍵は時限付きですぐに切れる仕様となっている
