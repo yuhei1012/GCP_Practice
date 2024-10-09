@@ -30,6 +30,9 @@ AWSと似ているが少々違っていた
 - 恐らくブラウザからsshすることを設計されているのでブラウザからssh接続するたびに毎回変わる登録されてしまうと思われる。
 - Google Cloudが自動的に鍵を追加しているため、手動で削除しても再び登録されてしまう
 
+接続エラー
+![img](https://github.com/yuhei1012/GCP_Practice/blob/84cf4be8ccfe0f25ec95a22b2c14cf2361e7b32a/GCP/SSH%E7%94%BB%E5%83%8F/SSH%E6%8E%A5%E7%B6%9A%E3%82%A8%E3%83%A9%E3%83%BC.png)
+
   
   これは、Google CloudのOSログイン機能（OS Login）が有効になっている場合に発生します。対応策は下記の通りです。
 - インスタンスを選択し、詳細ページで「編集」ボタンをクリックします。
