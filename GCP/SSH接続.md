@@ -12,6 +12,8 @@ AWSと似ているが少々違っていた
 6. 右上の方にファイルをダウンロードとあるので押下する。するとパスを入力するポップアップが出てくるのでパスを入力する
 ![img](https://github.com/yuhei1012/GCP_Practice/blob/8ac2e0d13932a7207490c8c51d68b093e0298ee3/GCP/SSH%E7%94%BB%E5%83%8F/GCP_VM%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9_%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%80%E3%82%A6%E3%83%AD%E3%83%B3%E3%83%BC%E3%83%89%E7%94%BB%E9%9D%A2.png)
 - ここで言うパスとはssh接続しているファイルのことである。ローカルで保存したい場所のことではない！今回で言えば/home/userneme/.ssh/id_rsaと入力することとなる
+
+
 パスエラー
 ![img](https://github.com/yuhei1012/GCP_Practice/blob/54c3d3e2c1db0ce1812e6d675e621fbbacf8e93f/GCP/SSH%E7%94%BB%E5%83%8F/%E3%83%91%E3%82%B9%E3%82%92%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%81%AE%E4%BF%9D%E5%AD%98%E5%A0%B4%E6%89%80%E3%81%AB%E3%81%97%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E7%94%BB%E9%9D%A2.png)
 6. ダウンロードができたらローカルの.sshフォルダに id_rsa  id_rsa.pubを移動した。※そのままでも良いが自分は分かりやすくするため移動
