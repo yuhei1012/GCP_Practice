@@ -44,6 +44,7 @@ googleのkey
 - インスタンスを選択し、詳細ページで「編集」ボタンをクリックします。
 - OSログインを無効化： 左側のCompute Engine欄「メタデータ」のセクションにある「追加メタデータ」から、キー enable-oslogin に対して値 FALSE を追加します。
 - 変更を保存： 画面下部の「保存」ボタンをクリックして設定を反映します。
+![img](https://github.com/yuhei1012/GCP_Practice/blob/20ad4a354c8b04e13e9760d129660961098b7621/GCP/SSH%E7%94%BB%E5%83%8F/%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E8%BF%BD%E5%8A%A0%E7%94%BB%E9%9D%A2.png)
 
   これでVSCodeから接続できます
 
