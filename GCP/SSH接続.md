@@ -5,7 +5,7 @@ AWSと似ているが少々違っていた
 
 1. GCPにログインし、VMインスタンスを作成する
 2. 作成したインスタンスの接続欄の太字のSSHを押下するとブラウザでのSSH接続ができる
-
+![img](https://github.com/yuhei1012/GCP_Practice/blob/bb73d5139398d5f7cc3b5014716d7ca548b60e02/GCP/SSH%E7%94%BB%E5%83%8F/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9_SSH%E6%8E%A5%E7%B6%9A%E6%AC%84.png)
  
 4. ブラウザでターミナル画面が開くので.sshに移動し、lsコマンドを叩くとauthorized_keys  id_rsa  id_rsa.pubの3つのファイルを確認できる
 5. id_rsaとid_rsa.pubをローカルにダウンロードする
